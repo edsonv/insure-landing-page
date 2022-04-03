@@ -1,15 +1,15 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { Home } from '../pages/Home'
 import { DesignSystem } from '../pages/DesignSystem'
 
 export function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="/design-system" element={<DesignSystem />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
