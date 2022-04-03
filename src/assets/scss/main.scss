@@ -1,0 +1,48 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+/* 
+  01 - settings
+  02 - tools
+  03 - generic
+  04 - elements
+  05 - vendor
+  06 - objects
+  07 - components
+  08 - utilities
+  09 - trumps
+*/
+
+@import './01-settings/settings.colors';
+@import './01-settings/settings.font-families';
+@import './01-settings/settings.font-sizes';
+
+@import './02-tools/tools.mixins.scss';
+
+@import './03-generic/generic.normalize';
+@import './03-generic/generic.reset';
+
+@import './04-elements/elements.base';
+
+@import './07-components/components.primary-nav';
+@import './07-components/components.primary-navlist';
+@import './07-components/components.link';
+@import './07-components/components.footer-list';
+@import './07-components/components.hero-section';
+@import './07-components/components.we-are-different-section';
+@import './07-components/components.card-deck';
+@import './07-components/components.cards';
+@import './07-components/components.aside-block';
+@import './07-components/components.footer';
+@import './07-components/components.nav-footer';
+@import './07-components/components.list-box';
+
+@import './08-utilities/utilities.display';
+@import './08-utilities/utilities.colors';
+@import './08-utilities/utilities.typography';
+@import './08-utilities/utilities.layout';
+@import './08-utilities/utilities.position';
+@import './08-utilities/_utilities.position.scss';
+
+@import './09-trumps/trumps.icomoon';
+@import './09-trumps/trumps.primary-nav';

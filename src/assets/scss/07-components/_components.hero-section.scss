@@ -1,0 +1,23 @@
+.c-hero-section {
+  display: flex;
+  flex-direction: column;
+  
+  
+  > .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+    gap: var(--gap, 18px);
+    background: url('../../images/backgrounds/bg-pattern-intro-left-mobile.svg') 0% 0% no-repeat;
+
+    &::after {
+      content: url('../../images/backgrounds/bg-pattern-intro-right-mobile.svg');
+      position: absolute;
+      bottom: -37%;
+      right: 0;
+      
+    }
+  }
+}

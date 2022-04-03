@@ -1,0 +1,11 @@
+.c-we-are-different {
+  padding: 140px 0;
+  > hr {
+    color: hsl($clr-very-light-gray);
+    width: 150px;
+  }
+  
+  > .title {
+    margin-top: 45px;
+  }
+}

@@ -1,0 +1,41 @@
+.c-primary-navlist {
+  list-style-type: none;
+  --gap: 50px;
+  // padding: 1.25rem 0;
+  // height: 80px;
+  // align-items: center;
+  // margin: 0;
+  // padding: 0;
+  position: fixed;
+  top: 64px;
+  bottom: 0;
+  flex-direction: column;
+  z-index: 9999;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: hsl($clr-very-dark-violet);
+  align-items: center;
+  padding: 0;
+  background-color: hsl($clr-very-dark-violet);
+  background-image: url('../../images/backgrounds/bg-pattern-mobile-nav.svg');
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  padding: 50px;
+
+
+  >.item {
+    // margin-left: 28px;
+    line-height: 10px;
+
+    &:last-child {
+      // margin-left: 7px;
+      width: 100%;
+    }
+  }
+
+  &.hidden {
+    left: 100%;
+  }
+
+}

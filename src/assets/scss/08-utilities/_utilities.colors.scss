@@ -1,0 +1,18 @@
+.u-bg-dark-violet { background-color: hsl($clr-dark-violet) }
+.u-bg-grayish-blue { background-color: hsl($clr-grayish-blue) }
+.u-bg-very-dark-violet { background-color: hsl($clr-very-dark-violet) }
+.u-bg-dark-grayish-violet { background-color: hsl($clr-dark-grayish-violet) }
+.u-bg-very-light-gray { background-color: hsl($clr-very-light-gray) }
+
+.u-text-dark-violet { color: hsl($clr-dark-violet) }
+.u-text-grayish-blue { color: hsl($clr-grayish-blue) }
+.u-text-very-dark-violet { color: hsl($clr-very-dark-violet) }
+.u-text-dark-grayish-violet { color: hsl($clr-dark-grayish-violet) }
+.u-text-very-light-gray { color: hsl($clr-very-light-gray) }
+
+.u-border-dark {
+  border: 1px solid hsl($clr-very-dark-violet);
+}
+.u-border-light {
+  border: 1px solid hsl($clr-very-light-gray);
+}

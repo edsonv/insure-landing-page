@@ -1,0 +1,9 @@
+.c-footer {
+  padding: 0 0 90px ;
+  background: url('../../images/backgrounds/bg-pattern-footer-mobile.svg') no-repeat;
+
+  >hr {
+    color: hsl($clr-very-light-gray);
+    width: 328px;
+  }
+}

@@ -1,0 +1,9 @@
+.u-flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+  // flex-wrap: wrap;
+}
+
+.u-d-block {
+  display: block;
+}

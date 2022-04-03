@@ -1,0 +1,89 @@
+[class^="t-icon-"], [class*=" t-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  // speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.t-icon-hamburger:before { content: "\e904"; }
+.t-icon-close:before { content: "\e902"; }
+
+.t-icon-snappy-process .path1:before {
+  content: "\e909";
+  color: rgb(150, 169, 198);
+}
+.t-icon-snappy-process .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.t-icon-affordable-prices .path1:before {
+  content: "\e900";
+  color: rgb(150, 169, 198);
+}
+.t-icon-affordable-prices .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.t-icon-people-first .path1:before {
+  content: "\e906";
+  color: rgb(150, 169, 198);
+}
+.t-icon-people-first .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+
+.t-icon-facebook:before { content: "\e903"; }
+.t-icon-twitter:before { content: "\e90b"; }
+.t-icon-pinterest:before { content: "\e908"; }
+.t-icon-instagram:before { content: "\e905"; }
+
+.t-icon-hamburger,
+.t-icon-close {
+  color: hsl($clr-very-dark-violet);
+  font-size: 30px;
+  aspect-ratio: 1;
+}
+
+.t-icon-facebook,
+.t-icon-twitter,
+.t-icon-pinterest,
+.t-icon-instagram {
+  color: hsl($clr-dark-grayish-violet);
+  font-size: 24px;
+  aspect-ratio: 1;
+  &:hover {
+    color: hsl($clr-very-dark-violet);
+  }
+}
+
+
+
+
+
+// .t-icon-facebook:before {
+//   content: "\e900";
+// }
+
+// .t-icon-instagram:before {
+//   content: "\e901";
+// }
+
+// .t-icon-pinterest:before {
+//   content: "\e902";
+// }
+
+// .t-icon-twitter:before {
+//   content: "\e903";
+// }

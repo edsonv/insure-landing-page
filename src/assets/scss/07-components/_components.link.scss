@@ -1,0 +1,57 @@
+.c-link {
+  text-decoration: none;
+  color: hsl($clr-very-light-gray);
+  padding: 0.875rem 2rem;
+  font-size: 14px;
+  cursor: pointer;
+
+  // &:hover {
+  //   // color: hsl($clr-very-dark-violet);
+  // }
+
+  &__button {
+    color: hsl($clr-very-light-gray);
+    border: 1px solid hsl($clr-very-light-gray);
+    padding: 0.875rem 2rem;
+  }
+
+  &__button:hover {
+    background-color: hsl($clr-very-light-gray);
+    color: hsl($clr-very-dark-violet);
+  }
+
+  &__button-nav {
+    // color: hsl($clr-very-dark-violet);
+    border: 1px solid hsl($clr-very-light-gray);
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  &__button-nav:hover {
+    color: hsl($clr-very-light-gray);
+    background-color: hsl($clr-very-dark-violet);
+  }
+
+  &__button-mobile {
+    border: 0;
+    padding: 0;
+    background: none;
+    color: none;
+    cursor: pointer;
+  }
+
+  &__rrss {
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+
+  &__footer {
+    color: hsl($clr-dark-violet);
+    letter-spacing: 1px;
+  }
+
+  &__footer:hover {
+    text-decoration: underline;
+  }
+}
