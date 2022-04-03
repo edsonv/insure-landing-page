@@ -16,7 +16,7 @@ export const Home = () => {
       <main>
         <section className='c-hero-section u-bg-dark-violet'>
           <div className='container' style={{ padding: "100px 0 70px", "--gap": "18px" }}>
-            <h2 className='u-ff-serif u-fs-700 u-fw-400 u-text-very-light-gray u-text-center'>Humanizing your insurance.</h2>
+            <h2 className='u-ff-serif u-fs-700 u-fw-400 u-text-very-light-gray u-text-center' style={{ maxWidth: "10ch" }}>Humanizing your insurance.</h2>
             <p className='u-fs-400 u-text-very-light-gray u-text-center' style={{ maxWidth: "33ch", lineHeight: "1.62" }}>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
             <Link to="#" className="c-link c-link__button u-fs-300 u-fw-700 u-uppercase" style={{ marginTop: "18px" }}>View plans</Link>
           </div>
@@ -59,7 +59,7 @@ export const Home = () => {
             </div>
           </div>
           <aside className='c-aside-block u-bg-dark-violet'>
-            <h3 className='u-ff-serif u-fs-600 u-fw-400 u-text-very-light-gray u-text-center'>Find out more about how we work</h3>
+            <h3 className='u-ff-serif u-fs-600 u-fw-400 u-text-very-light-gray u-text-center' style={{ maxWidth: "13ch" }}>Find out more about how we work</h3>
             <Link to="#" className="c-link c-link__button u-fs-300 u-fw-700 u-uppercase">How we work</Link>
           </aside>
         </section>
