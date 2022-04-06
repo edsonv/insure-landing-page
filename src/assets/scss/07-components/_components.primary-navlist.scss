@@ -1,11 +1,6 @@
 .c-primary-navlist {
   list-style-type: none;
   --gap: 50px;
-  // padding: 1.25rem 0;
-  // height: 80px;
-  // align-items: center;
-  // margin: 0;
-  // padding: 0;
   position: fixed;
   top: 63px;
   bottom: 0;
@@ -37,6 +32,22 @@
 
   &.hidden {
     left: 100%;
+  }
+
+  @media screen and (min-width: 375px) {
+    position: unset;
+    background-image: unset;
+    background-color: unset;
+    flex-direction: row;
+    padding: 0;
+    --gap: 27px;
+
+    >.item {
+      &:last-child {
+        width: unset;
+      }
+    }
+
   }
 
 }

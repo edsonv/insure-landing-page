@@ -5,6 +5,27 @@
   flex-direction: column;
   align-items: center;
   gap: 45px;
-  background: url('../../images/backgrounds/bg-pattern-how-we-work-mobile.svg') 100% 0 no-repeat;
+  background-image: url('../../images/backgrounds/bg-pattern-how-we-work-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
 
+  >.title {
+    max-width: 13ch;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 375px) {
+    margin: 0;
+    flex-direction: row;
+    padding: 80px;
+    justify-content: space-between;
+    background-image: url('../../images/backgrounds/bg-pattern-how-we-work-desktop.svg');
+    background-position: 100% 0;
+
+
+    >.title {
+      max-width: 359px;
+      text-align: left;
+    }
+  }
 }

@@ -4,20 +4,46 @@
   padding: 32px 0;
   gap: 40px;
 
-  > .body {
+  >.image-container {
+    justify-content: center;
+  }
+
+  >.body {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 
-    > .title {
+    >.title {
       font-weight: 400;
+      text-align: center;
     }
-    
-    > .description {
+
+    >.description {
       max-width: 34ch;
       line-height: 1.6;
+      text-align: center;
     }
   }
 
+  @media screen and (min-width: 375px) {
+    flex-grow: 1;
+
+    >.image-container {
+      justify-content: start;
+    }
+
+    >.body {
+      align-items: flex-start;
+
+      >.title {
+        text-align: left;
+      }
+
+      >.description {
+        text-align: left;
+        max-width: 36ch;
+      }
+    }
+  }
 }

@@ -1,3 +1,12 @@
 .c-card-deck {
   margin: 86px 0 145px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 375px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 0 160px;
+    gap: 30px;
+  }
 }

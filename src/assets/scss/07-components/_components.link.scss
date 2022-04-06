@@ -5,14 +5,11 @@
   font-size: 14px;
   cursor: pointer;
 
-  // &:hover {
-  //   // color: hsl($clr-very-dark-violet);
-  // }
-
   &__button {
     color: hsl($clr-very-light-gray);
     border: 1px solid hsl($clr-very-light-gray);
     padding: 0.875rem 2rem;
+    letter-spacing: 2px;
   }
 
   &__button:hover {
@@ -53,5 +50,38 @@
 
   &__footer:hover {
     text-decoration: underline;
+  }
+
+  @media screen and (min-width: 375px) {
+    color: hsl($clr-dark-grayish-violet);
+    padding: 0;
+
+    &:hover {
+      color: hsl($clr-very-dark-violet);
+    }
+
+    &__button-nav {
+      color: hsl($clr-very-dark-violet);
+      border: 1px solid hsl($clr-very-dark-violet);
+      width: max-content;
+      padding: 0.875rem 2rem;
+
+      &:hover {
+        color: hsl($clr-very-light-gray);
+      }
+    }
+
+    &__button {
+      padding: 0.875rem 2rem;
+      color: hsl($clr-very-light-gray);
+    }
+
+    &__button-mobile {
+      display: none;
+    }
+
+    &__footer {
+      color: hsl($clr-very-dark-violet);
+    }
   }
 }
